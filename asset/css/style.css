@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+}
+
+/* flex */
+
+.flex-container {
+    display: flex;
+    background-color: #575757;
+}
+
+.left {
+    flex: 40%;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.right {
+    flex: 60%;
+    /* background-color: rgb(81, 194, 141); */
+    height: 60px;
+    width: 100%;
+    margin-left: 370px;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 92px;
+    margin-top: 25px;
+}
+
+h1 {
+    margin: 12px;
+    color: beige;
+}
+h1:hover{
+    color: rgb(233 47 47);
+}
+
+/* top-container */
+
+.top-container {
+    height: 500px;
+    background-color: beige;
+    display: flex;
+}
+
+.left-container {
+    flex: 50%;
+    text-align: center;
+}
+
+.right-container {
+    flex: 50%;
+}
+
+button {
+    color: beige;
+    border: 3px;
+    border-radius: 24px;
+    margin-left: -12px;
+    margin-top: 14px;
+    background-color: rgb(194, 26, 152);
+    padding: 11px 36px;
+}
+
+.heading {
+    color: black;
+    margin-top: 130px;
+    font-family: 'Nerko One', cursive;
+    font-size: xxx-large;
+}
+
+h3 {
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: 'Nerko One', cursive;
+    color: black;
+}
+button:hover{
+    background-color:rgb(149, 4, 113) ;
+}
+
+h2{
+    margin-right:17px ;
+}
+
+/* middle-container */
+
+.middle-container {
+    height: 700px;
+    background-color: beige;
+}
+
+.heading2 {
+    text-align: center;
+    color: beige;
+    height: 60px;
+    background-color: #575757;
+    padding: 17px 0px 0px 0px;
+}
+
+.pic1 {
+    height: 120px;
+    margin: 36px 94px;
+}
+
+.pic2 {
+    height: 120px;
+    margin: 36px 90px;
+}
+
+.pic3 {
+    height: 120px;
+    margin: 36px 90px;
+}
+
+.pic4 {
+    height: 120px;
+    margin: 36px 90px;
+}
+
+.chrome {
+    margin: -43px 92px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+}
+ 
+.instalogo {
+    margin: -43px 75px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+
+}
+
+.insta {
+    margin: -43px 73px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+
+}
+
+.face {
+    margin:-43px 76px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+}
+
+.one {
+    position: absolute;
+    height: 230px;
+    width: 20%;
+    margin: -35px 49px;
+    font-size: xx-large;
+    font-family: cursive;
+    border-radius: 30px;
+    background-color: #575757;
+    left: 26%;
+    top: 107%;
+}
+
+.two {
+    position: absolute;
+    height: 230px;
+    width: 20%;
+    margin: -35px 49px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+    border-radius: 30px;
+    left: 49%;
+    top: 107%;
+}
+
+.three {
+    position: absolute;
+    height: 230px;
+    width: 20%;
+    margin: -35px 49px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+    border-radius: 30px;
+    left: 26%;
+    top: 143%;
+}
+
+.four {
+    position: absolute;
+    height: 230px;
+    width: 20%;
+    margin: -35px 49px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #575757;
+    border-radius: 30px;
+    left: 49%;
+    top: 143%;
+}
+
+.btn1{
+    color: beige;
+    border: 3px;
+    border-radius: 24px;
+    margin-left: 6px;
+    margin-top: 12px;
+    background-color: rgb(155 155 155);
+    padding: 11px 36px;
+}
+.btn1:hover{
+    background-image: linear-gradient(grey,skyblue,purple);
+}
