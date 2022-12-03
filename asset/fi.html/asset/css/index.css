@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+ width: 100%;
+ height: 500px;
+}
+
+/* container */
+
+.middle{
+    position: absolute;
+    background-color: #3f1381;
+    height: 244px;
+    width: 17%;
+    left: 405px;
+    bottom: 194px;
+    border: 3px solid black;
+    border-radius:52px;
+}
+
+.bottom{
+    position: absolute;
+    background-color: #3f1381;
+    height: 244px;
+    width: 17%;
+    left: 805px;
+    bottom: 194px;
+    border: 3px solid black;
+    border-radius:52px;
+}
+
+/* pic */
+
+.pic1{
+    height: 120px;
+  margin: 42px 67px;
+}
+
+.pic2{
+    height: 120px;
+    margin: 42px 67px; 
+}
+
+.insta{
+    margin: -35px 49px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #3f1381;
+
+}
+
+.face{
+    margin: -35px 56px;
+    font-size: xx-large;
+    font-family: cursive;
+    background-color: #3f1381;
+}
+
+a{
+    color: white;
+}
